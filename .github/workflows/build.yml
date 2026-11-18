@@ -19,6 +19,8 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
         with:
           gradle-version: '8.8'
+          java-version: '17'
+          java-distribution: 'temurin'
       - name: Build with Gradle
         run: gradle build
       - name: Upload Mod JAR
