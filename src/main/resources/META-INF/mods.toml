@@ -29,6 +29,3 @@ description='''Custom Rick Prime mod with PlayerAnimator sequences.'''
     versionRange="[1.0.0,)"
     ordering="AFTER"
     side="BOTH"
-```[cite: 13]
-
-Con `[1.0.0,)` Forge aceptará sin problema tu `1.0.2-rc1+1.20` al compilar el nuevo `.jar` en Actions[cite: 13, 22].
